@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <!-- Navigation Menu -->
+        <a href="#welcome-section"><span>Thomas Williams</span></a>
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a class="nav-link" href="#about-section"><i class="far fa-user"></i>About</a></li>
+                        <li><a class="nav-link" href="#skills-section"><i class="fas fa-pen"></i>Skills</a></li>
+                        <li><a class="nav-link" href="#portfolio-section"><i class="fas fa-briefcase"></i>Portfolio</a>
+                        </li>
+                        <li><a class="nav-link" href="#contact-section"><i class="far fa-envelope"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <!-- Landing page -->
+        <section id="welcome-section">
+            <div class="content">
+                <h1>Personal Portfolio</h1>
+
+                <div class="welcome-section-links">
+                    <a id="profile-link" href="https://github.com/tom-williams26" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                    <a class="profile-link" href="https://www.linkedin.com/in/thomas-williams-454a45143/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="profile-link" href="https://codepen.io/tom-williams" target="_blank"><i
+                            class="fab fa-codepen"></i></a>
+                </div>
+                <div class="btn-group">
+
+                    <div class="btn-contact">
+                        <a href="#contact-section">Contact</a>
+                    </div>
+                    <div class="btn-projects">
+                        <p>View projects</p>
+                        <a href="#portfolio-section">
+                            <i class="fas fa-caret-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about-section">
+            <div class="inner-width">
+
+                <div class="background-container">
+                    <h3>About</h3>
+                    <h4>Hi, My name is Tom.</h4>
+                    <p>I have recently graduated with a masters in computer science (Second-Class Honours) from the University of South Wales.
+                    </p>
+                    <p>I am a strong believer in reinforced learning, throughout my univeristy experience I had very little exposure to web development and decided to take an invaluable online course with FreeCodeCamp which I am thoroughly enjoying.
+                    </p>
+                    <p>Upon completion of this course I believe I will hold the skills and experience to land a job and apply my knowledge to real-world projects.</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills-section">
+            <div class="inner-width">
+                <div class="skills-container">
+                    <h3>Skills</h3>
+                    <p>Below is a list of languages, frameworks & tools that I have had exposure to.</p>
+                    <h4>Programming Languages:</h4>
+
+                    <div class="language-icons">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3"></i>
+                        <i class="fab fa-python"></i>
+                        <i class="fab fa-java"></i>
+                        <i class="fab fa-swift"></i>
+                        <i class="fab fa-node"></i>
+
+                    </div>
+                    <h4>Tools:</h4>
+
+                    <div class="tool-icons">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h4>Frameworks:</h4>
+
+                    <div class="framework-icons">
+                        <i class="fab fa-vuejs"></i>
+                        <i class="fab fa-react"></i>
+                        <i class="fab fa-bootstrap"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio-section">
+            <div class="inner-width">
+
+                <div class="portfolio-intro">
+                    <h3>Portfolio</h3>
+                    <p>I believe in a mobile-first approach when designing web applications, due to the majority of users access the internet through the use of a handheld device.</p>
+                    <p>Below is a showcase on some of the projects I have worked on with FreeCodeCamp.</p>
+                </div>
+                <!-- User Story #5: The projects section should contain at least one link to a project. -->
+                <div id="projects">
+                    <div class="project-tile">
+                        <h3>Tribute Page</h3>
+                        <div class="preview-area">
+                            <img class="desktop-snapshot" src="https://lh3.googleusercontent.com/NdvMvI_fd6bV9LzrOZXA3hNl3zMMo3b6xuh8DE0kRb0tnXi0ze_dIZJ0RRxSbcVkyqzBIsSYaWKeNPblDPAb6I8RAEr6mVZeasHELY9U86phY8W2dydYAVKnMJnSjglavhCjFIpD=w1920-h1080" alt="tribute-page" />
+                            <img class="mobile-snapshot" src="https://lh3.googleusercontent.com/jaA13gq14v3yejMKSTXA7A_LBHIk74KsrAwJJaO7buicqLrdOd_-7OwGTRf7BMpu-I9rCdSw3dzQNojNkoZcI4hftvaN6XP4s3ozWgyepLZts1psSZevRXRm2tq9Pk26WGFoz2Nz=w1920-h1080" alt="tribute-page-mobile" />
+                        </div>
+                        <div class="project-info">
+                            <h4>A Tribute to the UK's NHS and their fight against cornavirus.</h4>
+                            <p>Key points:</p>
+                            <ul>
+                                <li>Discovered how media queries work and target elements to make them responsive dependant on the screen size.</li>
+                                <li>Utilizing CSS to fully customize the font style (i.e., font-size, line-height, letters-spacing, font-families).</li>
+                                <li>Padding & Margin to effectively space out content and give a more appealing apperance.
+                                </li>
+                            </ul>
+                        </div>
+                        <p>View on CodePen:</p>
+                        <div class="project-links">
+
+                            <a class="code" href="https://codepen.io/tom-williams/pen/MWKdeQj" target="_blank">Code<i
+                                    class="fas fa-code"></i></a>
+                            <a class="demo" href="https://codepen.io/tom-williams/full/MWKdeQj" target="_blank">
+                                Demo<i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-tile">
+                        <h3>University Survey Form</h3>
+                        <div class="preview-area">
+                            <img class="desktop-snapshot" src="https://lh3.googleusercontent.com/ek6Mxfo9MnMMo4EGy5gkz71zlUzSKB7bzrCMFBxhSbOjRphbTTjkSPxBMAvW3j0fME93SXeJK_Zne_2P3XMMGfwN-f4VvVpk20wu38GpXVAnvweNuYlJ8gbvNKGVSy-hb-1M-DUR=w1920-h1080" alt="tribute-page" />
+                            <img class="mobile-snapshot" src="https://lh3.googleusercontent.com/-rEhJ68tMCOZfaoS3dYOkly9W-0xiOWQd3NvA0cpPRMhmxcG4sQhV_XtIyq6H8svrBKfcALpjULCOehKqchpv_hKyEnCNfwUUNo1HgxSMBYxbvprUX31xYEi2ueU8A-hpmad2tsm=w1920-h1080" alt="tribute-page-mobile" />
+                        </div>
+                        <div class="project-info">
+
+                            <h4>A responsive Univeristy open day survey form.</h4>
+                            <p>Key points:</p>
+                            <ul>
+                                <li>Using relative lengths to create a scalable layout.</li>
+                                <li>Customizing inputs & labels for a more detailed apperance.</li>
+
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a class="code" href="https://codepen.io/tom-williams/pen/MWKMMVY" target="_blank">Code<i
+                                    class="fas fa-code"></i></a>
+                            <a class="demo" href="https://codepen.io/tom-williams/full/MWKMMVY" target="_blank">Demo<i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-tile">
+                        <h3>Product Landing Page</h3>
+                        <div class="preview-area">
+                            <img class="desktop-snapshot" src="https://lh3.googleusercontent.com/yqbey4KrAlqMXhsEM_BTTTWhss9tup414JH7werXa40s83QQ0sgzSlIrEvYr2IWy5qffU78ge2GThi4NdLvNEfb60-nE2ML6Ykna6iQuOQC5AGxGBPuFD5fnBwB8Of_1S26gHOdj=w2400" alt="product-landing-page" />
+                            <img class="mobile-snapshot" src="https://lh3.googleusercontent.com/BXcaQ0MjQyAZ0tqltghYFvR5_QnxSx_pU6c14OrCAQc9aJst8Q9SuuKI1Xagd_ibYQm4AtBpYBzte_cBanbAq_wm8G0yypZVvLHwBFsu9NWe-QMwecIGzkz0LiseK5F_HA5hemPO=w2400" alt="product-landing-page-mobile" />
+                        </div>
+                        <div class="project-info">
+
+                            <h4>A responsive Product landing page on clocks.</h4>
+                            <p>Key points:</p>
+                            <ul>
+                                <li>Importing stylish fonts from google.</li>
+                                <li>Imbedding youtube videos.</li>
+                                <li>Redirecting the user to the appropriate section via the navigation links.</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a class="code" href="https://codepen.io/tom-williams/pen/MWyYJjV" target="_blank">Code<i
+                                    class="fas fa-code"></i></a>
+                            <a class="demo" href="https://codepen.io/tom-williams/full/MWyYJjV" target="_blank">Demo<i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-tile">
+                        <h3>Technical Documentation Page</h3>
+                        <div class="preview-area">
+                            <img class="desktop-snapshot" src="https://lh3.googleusercontent.com/-bh4RGNrqi1NBSm-ah7OGQEOBoPDKkHb6YK3b_Aa1YcBOOGKH-edD3eL2VSDZbkS7lFoN9D-I8cw87OWkhr-KxAWTt_rHQvLERJGKyV9KTp4-dIxV657MANbofO2nzb59BOj2XAZ=w2400" alt="tech-doc-page" />
+                            <img class="mobile-snapshot" src="https://lh3.googleusercontent.com/6keeK6Q7sJ4evHdq1bAnn6g1tGjpa8umN2AJpmDY1ejVNiZtvWj6P6nuEnAr4rFNDcs4c3_QUVtVV_OQVYi4AWjVSbYXvzhN1ZW-IbOCEPyCisvwOZTrrVaFX0gaG8H2hxS_lvqx=w2400" alt="tech-doc-page-mobile" />
+                        </div>
+                        <div class="project-info">
+
+                            <h4>A responsive Technical Document Page for a Weather API.</h4>
+                            <p>Key points:</p>
+                            <ul>
+                                <li>Designed a table using HTML for inserting the APIs parameters.</li>
+                                <li>Carefully added padding & margins for the several unordered lists throughout the Technical document.</li>
+                                <li>Made use of the code attribute to clearly outline the resources avaliable to the user.
+                                </li>
+                                <li>Pre attributes for storing JSON.</li>
+
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a class="code" href="https://codepen.io/tom-williams/pen/jOqjGeE" target="_blank">Code<i
+                                    class="fas fa-code"></i></a>
+                            <a class="demo" href="https://codepen.io/tom-williams/full/jOqjGeE" target="_blank">Demo<i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-tile">
+                        <h3>Responsive CSS Grid</h3>
+                        <div class="preview-area">
+                            <img class="desktop-snapshot" src="https://lh3.googleusercontent.com/B5kwvjI1s-M-_V0SwWaTtPsN-Ulr4NlvEYbef743UxPky3Yb5kVp8O4dyhyJa5VBboyUg3ZHtY3UaBNGOx_ccbF6jyQRfPBPWECH5PTwYDQ_PxGVDl5XgAsND-ar1it1i4rf9G9Z=w1920-h1080" alt="responsive-grid-layout" />
+                            <img class="mobile-snapshot" src="https://lh3.googleusercontent.com/OyDe23Fe9Q8VUMSpipOZwvmTyi3VVEpIVJxymb4UV77SHSDHVbo-zIeVBwc9rJYFNPiKlWHmSCS0ZOkB7WN6mmZnZ0DuRigoGdF-2me_uNnnHdzrIohg6132gNMbmInNPmSPm3Fk=w1920-h1080" alt="tribute-page-mobile" />
+                        </div>
+                        <div class="project-info">
+
+                            <h4>CSS Grid layout changes based off media queries.</h4>
+                            <p>Key points:</p>
+                            <ul>
+                                <li>Utlizing a grid structure for a more organised approach with rows and columns.
+                                </li>
+                                <li>grid-template-rows/columns allow you to specify the number of rows or columns that are required within a section of the grid.</li>
+                                <li>Choosing how much space a grid-item will consume by utlizing the grid-column & grid-row property as demonstrated to display the above projects.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a class="code" href="https://codepen.io/tom-williams/pen/wvWXmPX" target="_blank">Code<i
+                                    class="fas fa-code"></i></a>
+                            <a class="demo" href="https://codepen.io/tom-williams/full/wvWXmPX" target="_blank">
+                                Demo<i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact-section">
+            <div class="inner-width">
+                <h3>Contact</h3>
+
+                <div class="contact-container">
+
+
+                    <h4>Interested by some of the work I have achieved?</h4>
+                    <p>Please contact me via my LinkedIn</p>
+
+                    <div class="profile-links">
+                        <a href="https://github.com/tom-williams26" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/thomas-williams-454a45143/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://codepen.io/tom-williams" target="_blank"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer-section">
+            <div class="copyright"><i class="far fa-copyright"></i>
+                <span>All rights reserved.</span>
+            </div>
+        </div>
+        <!-- Attached social bar -->
+        <div class="a-links-bar">
+            <a href="https://github.com/tom-williams26" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/thomas-williams-454a45143/" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="https://codepen.io/tom-williams" target="_blank"><i class="fab fa-codepen"></i></a>
+        </div>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
